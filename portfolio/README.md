@@ -82,5 +82,13 @@ Voici un aperçu de la structure des fichiers dans ce projet :
 │   ├── main.js           # Point d'entrée de l'application Vue.js
 └── README.md             # Documentation du projet
 
+## Résultats des validateurs W3C
+
+### Résultat du validateur HTML
+![Résultat HTML](./assets/html-validatorhtml.png)
+
+### Résultat du validateur CSS
+![Résultat CSS](./assets/css-validatorcss.png)
+
 Remerciements
 Merci d'avoir visité mon portfolio ! Si vous avez des suggestions ou des commentaires, n'hésitez pas à me contacter via le formulaire ou à me retrouver sur mes réseaux sociaux.
