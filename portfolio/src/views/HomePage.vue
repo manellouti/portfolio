@@ -1,174 +1,190 @@
-<!-- src/App.vue -->
 <template>
   <div>
     <!-- Header Section -->
-    <CreationHeader />
-    <router-view />
-    <!-- Content Section -->
+    <header>
+      <CreationHeader />
+    </header>
+    <main>
+      <router-view />
+      <!-- Content Section -->
 
-    <HelloWorld msg="Bienvenue sur mon portfolio" author="Manel Louti" />
+      <HelloWorld msg="Bienvenue sur mon portfolio" author="Manel Louti" />
 
-    <!-- Présentation Section -->
-    <section id="presentation">
-      <h2>Présentation</h2>
-      <img
-        src="@/assets/profile.png"
-        alt="Photo de Manel Louti"
-        class="profile-photo"
-      />
-      <p>
-        Bonjour, je m'appelle Manel Louti, j'ai 20 ans et je suis actuellement
-        en formation avec le Centre Européen de Formation en Développement Web
-        et Web Mobile. Passionnée par la création et le design, je m'épanouis
-        dans le développement de sites web, en particulier avec WordPress.
-      </p>
-
-      <div class="presentation-container">
-        <div class="presentation-column">
-          <h3>Compétences</h3>
-          <ul>
-            <li>WordPress</li>
-            <li>HTML5 & CSS3</li>
-            <li>JavaScript</li>
-            <li>Vue.js</li>
-            <li>Git & GitHub</li>
-            <li>Capcut Pro</li>
-          </ul>
-        </div>
-        <div class="presentation-column">
-          <h3>Expérience</h3>
-          <p>
-            Je suis en cours de création d'un site web dédié à la création de
-            sites internet,
-            <a href="https://webmastour.com" target="_blank">webmastour.com</a>.
-          </p>
-          Ce projet est destiné aux jeunes entrepreneuses qui souhaitent créer
-          leur propre site à un prix accessible, avec un suivi personnalisé. Le
-          service inclut un hébergement gratuit pendant un an, une réduction de
-          50% pour les années suivantes, ainsi qu'une formation WordPress
-          offerte. Ce projet me tient à cœur car il permet aux femmes de
-          discuter librement de leurs projets et de se sentir à l'aise dans un
-          environnement de soutien.
-
-          <p>
-            Je travaille également comme monteuse vidéo pour une psychologue
-            active sur Instagram,
-            <a
-              href="https://www.instagram.com/hafsa.psychologue"
-              target="_blank"
-              >@hafsa.psychologue</a
-            >. Je monte ses conférences et ses vidéos courtes pour ses réseaux
-            sociaux.
-          </p>
-        </div>
-      </div>
-
-      <!-- Instagram Feed -->
-      <div class="instagram-container">
-        <div class="instagram-media-wrapper">
-          <blockquote
-            class="instagram-media"
-            data-instgrm-permalink="https://www.instagram.com/reel/C_GoIfeIr4_/?utm_source=ig_embed&amp;utm_campaign=loading"
-          >
-            <div>
-              <a
-                href="https://www.instagram.com/reel/C_GoIfeIr4_/?utm_source=ig_embed&amp;utm_campaign=loading"
-                target="_blank"
-              >
-                <img src="//www.instagram.com/embed.js" alt="Instagram Feed" />
-              </a>
-            </div>
-          </blockquote>
-        </div>
-
-        <div class="instagram-media-wrapper">
-          <blockquote
-            class="instagram-media"
-            data-instgrm-permalink="https://www.instagram.com/reel/C-nyIaGoehX/?utm_source=ig_embed&amp;utm_campaign=loading"
-          >
-            <div>
-              <a
-                href="https://www.instagram.com/reel/C-nyIaGoehX/?utm_source=ig_embed&amp;utm_campaign=loading"
-                target="_blank"
-              >
-                <img src="//www.instagram.com/embed.js" alt="Instagram Feed" />
-              </a>
-            </div>
-          </blockquote>
-        </div>
-
-        <div class="instagram-media-wrapper">
-          <blockquote
-            class="instagram-media"
-            data-instgrm-permalink="https://www.instagram.com/reel/C_tSAfEo0W0/?utm_source=ig_embed&amp;utm_campaign=loading"
-          >
-            <div>
-              <a
-                href="https://www.instagram.com/reel/C_tSAfEo0W0/?utm_source=ig_embed&amp;utm_campaign=loading"
-                target="_blank"
-              >
-                <img src="//www.instagram.com/embed.js" alt="Instagram Feed" />
-              </a>
-            </div>
-          </blockquote>
-        </div>
-      </div>
-
-      <div class="presentation-column">
-        <h3>Objectifs</h3>
+      <!-- Présentation Section -->
+      <section id="presentation">
+        <h2>Présentation</h2>
+        <img
+          src="@/assets/profile.png"
+          alt="Photo de Manel Louti"
+          class="profile-photo"
+        />
         <p>
-          Je suis à la recherche d'opportunités pour renforcer mes compétences
-          en développement web. Mon objectif est de gagner de l'expérience, de
-          lancer mon business avec Webmastour, et de continuer à apprendre tout
-          en contribuant à des projets significatifs.
+          Bonjour, je m'appelle Manel Louti, j'ai 20 ans et je suis actuellement
+          en formation avec le Centre Européen de Formation en Développement Web
+          et Web Mobile. Passionnée par la création et le design, je m'épanouis
+          dans le développement de sites web, en particulier avec WordPress.
         </p>
-      </div>
-    </section>
 
-    <!-- Créations Section -->
-    <section id="creations">
-      <!-- Projet 1 : CV en ligne -->
-      <h2>Créations</h2>
+        <div class="presentation-container">
+          <div class="presentation-column">
+            <h3>Compétences</h3>
+            <ul>
+              <li>WordPress</li>
+              <li>HTML5 & CSS3</li>
+              <li>JavaScript</li>
+              <li>Vue.js</li>
+              <li>Git & GitHub</li>
+              <li>Capcut Pro</li>
+            </ul>
+          </div>
+          <div class="presentation-column">
+            <h3>Expérience</h3>
+            <p>
+              Je suis en cours de création d'un site web dédié à la création de
+              sites internet,
+              <a href="https://webmastour.com" target="_blank">webmastour.com</a
+              >.
+            </p>
+            Ce projet est destiné aux jeunes entrepreneuses qui souhaitent créer
+            leur propre site à un prix accessible, avec un suivi personnalisé.
+            Le service inclut un hébergement gratuit pendant un an, une
+            réduction de 50% pour les années suivantes, ainsi qu'une formation
+            WordPress offerte. Ce projet me tient à cœur car il permet aux
+            femmes de discuter librement de leurs projets et de se sentir à
+            l'aise dans un environnement de soutien.
 
-      <CreationItem
-        title="CV en ligne"
-        image="/cv.png"
-        description="Une page web interactive de mon CV avec toutes les informations professionnelles."
-        creationDate="26/12/2023"
-        technologies="HTML, CSS"
-        link="/path/to/cv.pdf"
-        github="https://github.com/manellouti/cv-repo"
-      />
+            <p>
+              Je travaille également comme monteuse vidéo pour une psychologue
+              active sur Instagram,
+              <a
+                href="https://www.instagram.com/hafsa.psychologue"
+                target="_blank"
+                >@hafsa.psychologue</a
+              >. Je monte ses conférences et ses vidéos courtes pour ses réseaux
+              sociaux.
+            </p>
+          </div>
+        </div>
 
-      <!-- Projet 2 : Webmastour -->
-      <CreationItem
-        title="Webmastour"
-        image="/site.png"
-        description="Un site web dédié aux jeunes entrepreneuses souhaitant créer un site web abordable avec suivi et formation."
-        creationDate="18/08/2024"
-        technologies="Wordpress,flatsome studio"
-        link="https://webmastour.com"
-      />
-    </section>
+        <!-- Instagram Feed -->
+        <div class="instagram-container">
+          <div class="instagram-media-wrapper">
+            <blockquote
+              class="instagram-media"
+              data-instgrm-permalink="https://www.instagram.com/reel/C_GoIfeIr4_/?utm_source=ig_embed&amp;utm_campaign=loading"
+            >
+              <div>
+                <a
+                  href="https://www.instagram.com/reel/C_GoIfeIr4_/?utm_source=ig_embed&amp;utm_campaign=loading"
+                  target="_blank"
+                >
+                  <img
+                    src="//www.instagram.com/embed.js"
+                    alt="Instagram Feed"
+                  />
+                </a>
+              </div>
+            </blockquote>
+          </div>
 
-    <!-- Contact Section -->
-    <section id="contact">
-      <h2>Contact</h2>
-      <form @submit.prevent="sendEmail">
-        <label for="name">Nom</label>
-        <input type="text" id="name" v-model="name" required />
+          <div class="instagram-media-wrapper">
+            <blockquote
+              class="instagram-media"
+              data-instgrm-permalink="https://www.instagram.com/reel/C-nyIaGoehX/?utm_source=ig_embed&amp;utm_campaign=loading"
+            >
+              <div>
+                <a
+                  href="https://www.instagram.com/reel/C-nyIaGoehX/?utm_source=ig_embed&amp;utm_campaign=loading"
+                  target="_blank"
+                >
+                  <img
+                    src="//www.instagram.com/embed.js"
+                    alt="Instagram Feed"
+                  />
+                </a>
+              </div>
+            </blockquote>
+          </div>
 
-        <label for="subject">Objet</label>
-        <input type="text" id="subject" v-model="subject" required />
+          <div class="instagram-media-wrapper">
+            <blockquote
+              class="instagram-media"
+              data-instgrm-permalink="https://www.instagram.com/reel/C_tSAfEo0W0/?utm_source=ig_embed&amp;utm_campaign=loading"
+            >
+              <div>
+                <a
+                  href="https://www.instagram.com/reel/C_tSAfEo0W0/?utm_source=ig_embed&amp;utm_campaign=loading"
+                  target="_blank"
+                >
+                  <img
+                    src="//www.instagram.com/embed.js"
+                    alt="Instagram Feed"
+                  />
+                </a>
+              </div>
+            </blockquote>
+          </div>
+        </div>
 
-        <label for="message">Message</label>
-        <textarea id="message" v-model="message" required></textarea>
+        <div class="presentation-column">
+          <h3>Objectifs</h3>
+          <p>
+            Je suis à la recherche d'opportunités pour renforcer mes compétences
+            en développement web. Mon objectif est de gagner de l'expérience, de
+            lancer mon business avec Webmastour, et de continuer à apprendre
+            tout en contribuant à des projets significatifs.
+          </p>
+        </div>
+      </section>
 
-        <button type="submit">Envoyer</button>
-      </form>
-    </section>
+      <!-- Créations Section -->
+      <section id="creations">
+        <!-- Projet 1 : CV en ligne -->
+        <h2>Créations</h2>
+
+        <CreationItem
+          title="CV en ligne"
+          image="/cv.png"
+          description="Une page web interactive de mon CV avec toutes les informations professionnelles."
+          creationDate="26/12/2023"
+          technologies="HTML, CSS"
+          link="/path/to/cv.pdf"
+          github="https://github.com/manellouti/cv-repo"
+        />
+
+        <!-- Projet 2 : Webmastour -->
+        <CreationItem
+          title="Webmastour"
+          image="/site.png"
+          description="Un site web dédié aux jeunes entrepreneuses souhaitant créer un site web abordable avec suivi et formation."
+          creationDate="18/08/2024"
+          technologies="Wordpress,flatsome studio"
+          link="https://webmastour.com"
+        />
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact">
+        <h2>Contact</h2>
+        <form @submit.prevent="sendEmail">
+          <label for="name">Nom</label>
+          <input type="text" id="name" v-model="name" required />
+
+          <label for="subject">Objet</label>
+          <input type="text" id="subject" v-model="subject" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" v-model="message" required></textarea>
+
+          <button type="submit">Envoyer</button>
+        </form>
+      </section>
+    </main>
+
     <!-- Footer Section -->
-    <CreationFooter />
+    <footer>
+      <CreationFooter />
+    </footer>
   </div>
 </template>
 
@@ -286,7 +302,7 @@ export default {
   padding: 20px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  background-color:#FFFFFF;
+  background-color: #ffffff;
   text-align: left;
 }
 
@@ -399,7 +415,7 @@ form {
   align-items: center;
   box-shadow: 0 px 15px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  gap: 10px ;
+  gap: 10px;
 }
 
 input,
