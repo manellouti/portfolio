@@ -81,3 +81,6 @@ Voici un aperçu de la structure des fichiers dans ce projet :
 │   ├── App.vue           # Composant racine de l'application
 │   ├── main.js           # Point d'entrée de l'application Vue.js
 └── README.md             # Documentation du projet
+
+Remerciements
+Merci d'avoir visité mon portfolio ! Si vous avez des suggestions ou des commentaires, n'hésitez pas à me contacter via le formulaire ou à me retrouver sur mes réseaux sociaux.
